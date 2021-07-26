@@ -3,7 +3,7 @@
 ### 'AAF4C61DDCC5E8A2DABEDE0F3B482CD9AEA9434D' is the hash{SHA1} of the string 'hello'
 
 ```
-bash
+
 KEY ASPECTS OF HASH FUNCTION:
 1. It's one way. It is impossible to guess the input of a hash.
 2. Change in the string input will result in change in hash.
