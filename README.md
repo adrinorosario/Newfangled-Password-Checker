@@ -7,7 +7,9 @@ The program uses a ```SHA1``` algorithm to check if our passwords have been leak
 
 However, the API is never going to know the  full hash and therefore never, ever be able to guess our password. It'll just know that we have this tiny bit of a hash function that can match any thousands or even a million of passwords.
 
-• Primary file- [checkpass.py](https://github.com/adrinorosario/Newfangled-Password-Checker/blob/main/checkpass.py)
+• Primary file- [check.py](https://github.com/adrinorosario/Newfangled-Password-Checker/blob/main/check.py)
+
+• Usefully Commented File- [checkpass.py](https://github.com/adrinorosario/Newfangled-Password-Checker/blob/main/checkpass.py)
 
 • [References](https://github.com/adrinorosario/Newfangled-Password-Checker/tree/main/References)
 
@@ -18,4 +20,4 @@ However, the API is never going to know the  full hash and therefore never, ever
 
 [Secure Hash Algorithms](https://brilliant.org/wiki/secure-hashing-algorithms/)
 
-[Hashes.com](https://hashes.com/en/decrypt/hash)- decrypt hashes.
+[Hashes.com](https://hashes.com/en/decrypt/hash)- decrypt all kinds of hashes.
