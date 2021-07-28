@@ -3,11 +3,11 @@
 # Newfangled-Password-Checker
 An advanced and state of the art password checker created using Python3. It is a modern secure program that helps in checking if your passwords have ever been hacked. 
 
-The program uses a ```SHA1``` algorithm to check if our passwords have been leaked anywhere or if they have been hacked. We send a hashed version of our password (only first 5 characters of our hashed passwords) to [Pwned Passwords](https://haveibeenpwned.com/Passwords) and check if they have been exploited. Then, through the response we recieve, we see if they have been leaked/hacked.
+The program uses a ```SHA1``` algorithm to check if the passwords have been leaked or if they have been hacked. The, by sending a hashed version of the password (only first 5 characters of the hashed passwords) to [Pwned Passwords](https://haveibeenpwned.com/Passwords) to check if they have been exploited. Through the response recieved, the function checks if the passwords have been leaked or hacked.
 
-However, the API is never going to know the  full hash and therefore never, ever be able to guess our password. It'll just know that we have this tiny bit of a hash function that can match any thousands or even a million of passwords.
+However, the API is never going to know the  full hash and therefore never, ever be able to guess the password. It'll just know that we have this tiny bit of a hash function that can match any thousands or even a million of passwords.
 
-• Primary file- [check.py](https://github.com/adrinorosario/Newfangled-Password-Checker/blob/main/check.py)
+• Primary initial file- [check.py](https://github.com/adrinorosario/Newfangled-Password-Checker/blob/main/check.py)
 
 • Usefully Commented File- [checkpass.py](https://github.com/adrinorosario/Newfangled-Password-Checker/blob/main/checkpass.py)
 
