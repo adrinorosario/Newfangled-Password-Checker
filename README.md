@@ -1,5 +1,7 @@
 #### Note- I'm working on fixing the bugs in the [Object Oriented Programming Version](https://github.com/adrinorosario/Newfangled-Password-Checker/blob/main/OOP%20Version/checker.py) of this program. The final submission will be pushed before September 31, 2021.
 
+#### Web version comming in 2022.
+
 <img src="https://chromeunboxed.com/wp-content/uploads/2019/10/GooglePasswordManagerCheckup.jpg" width="400" align="right"/>
 
 # Newfangled-Password-Checker
@@ -13,15 +15,18 @@ However, the API is never going to know the  full hash and therefore never, ever
 
 • Usefully Commented File- [checkpass.py](https://github.com/adrinorosario/Newfangled-Password-Checker/blob/main/References/checkpass.py)
 
-• [References](https://github.com/adrinorosario/Newfangled-Password-Checker/tree/main/References)
+• [References](https://github.com/adrinorosario/Newfangled-Password-Checker/tree/main/References)- useful files related to the program and repository.
 
-•Check out the [Object Oriented Programming Version](https://github.com/adrinorosario/Newfangled-Password-Checker/blob/main/OOP%20Version/checker.py)
+• Check out the [Object Oriented Programming Version](https://github.com/adrinorosario/Newfangled-Password-Checker/blob/main/OOP%20Version/checker.py)
 
 ## Useful links
 [SHA1 History](https://en.m.wikipedia.org/wiki/SHA-1)
 
-[SHA1 Hash Generator]( https://passwordsgenerator.net/sha1-hash-generator/)- used in this project.
+[SHA1 Hash Generator]( https://passwordsgenerator.net/sha1-hash-generator/) tool- used in this project.
 
-[Secure Hash Algorithms](https://brilliant.org/wiki/secure-hashing-algorithms/)
+[Secure Hash Algorithms](https://brilliant.org/wiki/secure-hashing-algorithms/) Overview.
 
 [Hashes.com](https://hashes.com/en/decrypt/hash)- decrypt all kinds of hashes.
+
+[hashlib](https://docs.python.org/3/library/hashlib.html) Python3 module for decrypting and encoding Secure Hash Algorithms.
+
