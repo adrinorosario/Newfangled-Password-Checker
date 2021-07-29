@@ -1,3 +1,5 @@
+#### Note- I'm working on fixing the bugs in the [Object Oriented Programming Version](https://github.com/adrinorosario/Newfangled-Password-Checker/blob/main/OOP%20Version/checker.py) of this program. The final submission will be pushed before September 31, 2021.
+
 <img src="https://chromeunboxed.com/wp-content/uploads/2019/10/GooglePasswordManagerCheckup.jpg" width="400" align="right"/>
 
 # Newfangled-Password-Checker
@@ -9,9 +11,11 @@ However, the API is never going to know the  full hash and therefore never, ever
 
 • Primary initial file- [check.py](https://github.com/adrinorosario/Newfangled-Password-Checker/blob/main/check.py)
 
-• Usefully Commented File- [checkpass.py](https://github.com/adrinorosario/Newfangled-Password-Checker/blob/main/checkpass.py)
+• Usefully Commented File- [checkpass.py](https://github.com/adrinorosario/Newfangled-Password-Checker/blob/main/References/checkpass.py)
 
 • [References](https://github.com/adrinorosario/Newfangled-Password-Checker/tree/main/References)
+
+•Check out the [Object Oriented Programming Version](https://github.com/adrinorosario/Newfangled-Password-Checker/blob/main/OOP%20Version/checker.py)
 
 ## Useful links
 [SHA1 History](https://en.m.wikipedia.org/wiki/SHA-1)
