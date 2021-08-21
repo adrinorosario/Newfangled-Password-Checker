@@ -1,6 +1,7 @@
 import requests
 import hashlib
 import sys
+import string
 
 
 class Requester:
@@ -41,8 +42,9 @@ class PwnedPasswords(ExploitationChecker):
         sha1password = hashlib.sha1(
             password.encode('utf-8')).hexdigest().upper()
         first5, tail = sha1password[:5], sha1password[5:]
-        response = ExploitationChecker.request_api_data(first5)
-        return ExploitationChecker.get_password_leaks_count(response, tail)
+        response = PwnedPasswords.request_api_data(first5)
+
+        return PwnedPasswords.get_password_leaks_count(response, tail)
 
 
 class Finale(PwnedPasswords):
@@ -51,13 +53,24 @@ class Finale(PwnedPasswords):
 
     def main(self):
 
-        count = PwnedPasswords.pwned_api_check(self.password)
+        count = Finale.pwned_api_check(self.password)
         if count:
-            print(
-                f'{self.password} was found {count} times-- TiMe TO ChanGe Your PaSSword')
+            return f'{self.password} was found {count} times-- TiMe TO ChanGe Your PaSSword'
         else:
-            print(f'{self.password} not found, Carry On!')
+            return f'{self.password} not found, Carry On!'
 
 
 api = Requester('https://api.pwnedpasswords.com/range/')
-print([Finale('adrinorosariojamesadrinorosariojames')])
+
+password = str(input("Enter your password"))
+result = Finale(password=password)
+
+
+class Output:
+    def __init__(self):
+        self.out = result
+        x = self.out
+        print(str(x))
+
+
+Output()
