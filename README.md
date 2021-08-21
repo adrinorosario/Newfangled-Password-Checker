@@ -1,5 +1,3 @@
-#### Note- I'm working on fixing the bugs in the [Object Oriented Programming Version](https://github.com/adrinorosario/Newfangled-Password-Checker/blob/main/OOP%20Version/checker.py) of this program. The final submission will be pushed before September 31, 2021.
-
 #### Web version comming in 2022.
 
 <img src="https://chromeunboxed.com/wp-content/uploads/2019/10/GooglePasswordManagerCheckup.jpg" width="400" align="right"/>
@@ -11,13 +9,18 @@ The program uses a ```SHA1``` algorithm to check if the passwords have been leak
 
 However, the API is never going to know the  full hash and therefore never, ever be able to guess the password. It'll just know that we have this tiny bit of a hash function that can match any thousands or even a million of passwords.
 
-• Primary initial file- [check.py](https://github.com/adrinorosario/Newfangled-Password-Checker/blob/main/check.py)
+• Primary file- [check.py](https://github.com/adrinorosario/Newfangled-Password-Checker/blob/main/check.py)
+ I recommend that you use the [Primary file](https://github.com/adrinorosario/Newfangled-Password-Checker/blob/main/check.py) for safety.  Using the primary file: Open your terminal in the directory of the file and type in/copy paste the snippet- 
+   ```python3
+   python3 check.py <sample>
+   ```
+replace ```sample``` with your password
 
-• Usefully Commented File- [checkpass.py](https://github.com/adrinorosario/Newfangled-Password-Checker/blob/main/References/checkpass.py)
+• Usefully Commented File- [checkpass.py](https://github.com/adrinorosario/Newfangled-Password-Checker/blob/main/References/checkpass.py)- does the same jobs as the primary file.
 
 • [References](https://github.com/adrinorosario/Newfangled-Password-Checker/tree/main/References)- useful files related to the program and repository.
 
-• Check out the [Object Oriented Programming Version](https://github.com/adrinorosario/Newfangled-Password-Checker/blob/main/OOP%20Version/checker.py)
+• Check out the [OOP Version](https://github.com/adrinorosario/Newfangled-Password-Checker/blob/main/OOP%20Version/checker.py). The OOP concepts do not fully cooperate with the ideas of hashing and retreiving information and rendering them. That's why its better you use the Primary file.
 
 ## Useful links
 [SHA1 History](https://en.m.wikipedia.org/wiki/SHA-1)
