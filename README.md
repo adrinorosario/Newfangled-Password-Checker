@@ -1,5 +1,3 @@
-#### Web version comming in 2022.
-
 <img src="https://chromeunboxed.com/wp-content/uploads/2019/10/GooglePasswordManagerCheckup.jpg" width="400" align="right"/>
 
 # Newfangled-Password-Checker
@@ -11,10 +9,14 @@ However, the API is never going to know the  full hash and therefore never, ever
 
 • Primary file- [check.py](https://github.com/adrinorosario/Newfangled-Password-Checker/blob/main/check.py)
  I recommend that you use the [Primary file](https://github.com/adrinorosario/Newfangled-Password-Checker/blob/main/check.py) for safety.  Using the primary file: Open your terminal in the directory of the file and type in/copy paste the snippet- 
-   ```python3
-   python3 check.py <sample>
    ```
-replace ```sample``` with your password
+   python3 check.py password
+   ```
+replace ```password``` with your password. Additionally, you can check as many as passwords you want, like: 
+```
+python3 check.py password1 password2
+```
+just have a `space` between each input.
 
 • Usefully Commented File- [checkpass.py](https://github.com/adrinorosario/Newfangled-Password-Checker/blob/main/References/checkpass.py)- does the same jobs as the primary file.
 
