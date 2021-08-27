@@ -1,5 +1,7 @@
 <img src="https://chromeunboxed.com/wp-content/uploads/2019/10/GooglePasswordManagerCheckup.jpg" width="400" align="right"/>
 
+###### P.S. The [OOP Version](https://github.com/adrinorosario/Newfangled-Password-Checker/blob/main/OOP%20Version/checker.py) is just too buggy and irritating. Better don't touch it.
+
 # Newfangled-Password-Checker
 An advanced and state of the art password checker created using Python3. It is a modern secure program that helps in checking if your passwords have ever been hacked. 
 
