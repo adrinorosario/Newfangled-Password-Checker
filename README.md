@@ -27,6 +27,7 @@ Now, the [OOP version](https://github.com/adrinorosario/Newfangled-Password-Chec
 python3 sample.py <example>
 ```
 Replace the example with your own choice.
+#### The OOP version checks only for a single operator or digit or element: for example- $. It checks only for $.
 ## Program Files
 • Primary file- [check.py](https://github.com/adrinorosario/Newfangled-Password-Checker/blob/main/check.py)
  I recommend that you use the [Primary file](https://github.com/adrinorosario/Newfangled-Password-Checker/blob/main/check.py) for safety.  
