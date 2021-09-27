@@ -1,5 +1,7 @@
 <img src="https://chromeunboxed.com/wp-content/uploads/2019/10/GooglePasswordManagerCheckup.jpg" width="400" align="right"/>
 
+[![GitHub license](https://img.shields.io/github/license/adrinorosario/Newfangled-Password-Checker?style=flat-square)](https://github.com/adrinorosario/Newfangled-Password-Checker/blob/main/LICENSE)
+
 # Newfangled-Password-Checker
 An advanced and state of the art password checker created using Python3. It is a modern secure program that helps in checking if your passwords have ever been hacked. 
 
@@ -20,16 +22,20 @@ python3 check.py password1 password2
 ```
 just have a `space` between each input.
 
-###### P.S. The [OOP Version](https://github.com/adrinorosario/Newfangled-Password-Checker/blob/main/OOP%20Version/checker.py) is just too buggy and irritating. Better don't touch it.
+Now, the [OOP version](https://github.com/adrinorosario/Newfangled-Password-Checker/tree/main/OOP%20Version) works in a different way such that you can check each element in a set or a given word or number and check how many times each symbol/number/alphabet/etc has been hacked. For using this version, open up your terminal in the OOP folder and type in the command:
+```
+python3 sample.py <example>
+```
+Replace the example with your own choice.
 ## Program Files
 • Primary file- [check.py](https://github.com/adrinorosario/Newfangled-Password-Checker/blob/main/check.py)
  I recommend that you use the [Primary file](https://github.com/adrinorosario/Newfangled-Password-Checker/blob/main/check.py) for safety.  
 
 • Usefully Commented File- [checkpass.py](https://github.com/adrinorosario/Newfangled-Password-Checker/blob/main/References/checkpass.py)- does the same jobs as the primary file.
 
-• [References](https://github.com/adrinorosario/Newfangled-Password-Checker/tree/main/References)- useful files related to the program and repository.
+• Check out the [OOP version](https://github.com/adrinorosario/Newfangled-Password-Checker/tree/main/OOP%20Version).
 
-• Check out the [OOP Version](https://github.com/adrinorosario/Newfangled-Password-Checker/blob/main/OOP%20Version/checker.py). The OOP concepts do not fully cooperate with the ideas of hashing and retreiving information and rendering them. That's why its better you use the Primary file.
+• [References](https://github.com/adrinorosario/Newfangled-Password-Checker/tree/main/References)- useful files related to the program and repository.
 
 ## Support
 [SHA1 History](https://en.m.wikipedia.org/wiki/SHA-1)
@@ -42,3 +48,4 @@ just have a `space` between each input.
 
 [hashlib](https://docs.python.org/3/library/hashlib.html) Python3 module for decrypting and encoding Secure Hash Algorithms.
 
+## License- [MIT](https://github.com/adrinorosario/Newfangled-Password-Checker/blob/main/LICENSE)
